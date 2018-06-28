@@ -8,8 +8,8 @@
 
 """
 ```julia
-typealias PooledStringVector{S,T,P} PooledStringArray{S,1,T,P}
-typealias PooledStringMatrix{S,T,P} PooledStringArray{S,2,T,P}
+PooledStringVector{S,T,P} = PooledStringArray{S,1,T,P}
+PooledStringMatrix{S,T,P} = PooledStringArray{S,2,T,P}
 ```
 
 Type aliases for PooledStringVector and PooledStringMatrix.
